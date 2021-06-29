@@ -1,0 +1,15 @@
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\bin\Debug\netcoreapp2.1\Wpe_Merge.deps.json
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\bin\Debug\netcoreapp2.1\Wpe_Merge.runtimeconfig.json
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\bin\Debug\netcoreapp2.1\Wpe_Merge.runtimeconfig.dev.json
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\bin\Debug\netcoreapp2.1\Wpe_Merge.dll
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\bin\Debug\netcoreapp2.1\Wpe_Merge.pdb
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\bin\Debug\netcoreapp2.1\WpeMergeCodeBehindBusinessLogic.dll
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\bin\Debug\netcoreapp2.1\WpeMergeCodeBehindBusinessLogic.pdb
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\obj\Debug\netcoreapp2.1\Wpe_Merge.csprojAssemblyReference.cache
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\obj\Debug\netcoreapp2.1\Wpe_Merge.csproj.CoreCompileInputs.cache
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\obj\Debug\netcoreapp2.1\Wpe_Merge.AssemblyInfoInputs.cache
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\obj\Debug\netcoreapp2.1\Wpe_Merge.AssemblyInfo.cs
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\obj\Debug\netcoreapp2.1\Wpe_Merge.csproj.CopyComplete
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\obj\Debug\netcoreapp2.1\Wpe_Merge.dll
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\obj\Debug\netcoreapp2.1\Wpe_Merge.pdb
+C:\Users\anantha\Desktop\Interview\WP_Engine\Test\Wpe_Merge\Wpe_Merge\bin\Debug\netcoreapp2.1\appSettings.json
