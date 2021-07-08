@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpe_Merge", "Wpe_Merge\Wpe_Merge.csproj", "{A312F23C-5883-4BF8-ABD0-1CB3C0D5313F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpe_Merge", "Wpe_Merge\Wpe_Merge.csproj", "{A312F23C-5883-4BF8-ABD0-1CB3C0D5313F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpeMergeCodeBehindBusinessLogic", "WpeMergeCodeBehindBusinessLogic\WpeMergeCodeBehindBusinessLogic.csproj", "{2076871C-010B-4439-A9F3-7130B44B2FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpeMergeCodeBehindBusinessLogic", "WpeMergeCodeBehindBusinessLogic\WpeMergeCodeBehindBusinessLogic.csproj", "{2076871C-010B-4439-A9F3-7130B44B2FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpe_Merge_Test", "Wpe_Merge_Test\Wpe_Merge_Test.csproj", "{1BDDFF98-F6C3-46BA-90AE-6BF0F008A9DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2076871C-010B-4439-A9F3-7130B44B2FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2076871C-010B-4439-A9F3-7130B44B2FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2076871C-010B-4439-A9F3-7130B44B2FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDDFF98-F6C3-46BA-90AE-6BF0F008A9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDDFF98-F6C3-46BA-90AE-6BF0F008A9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDDFF98-F6C3-46BA-90AE-6BF0F008A9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDDFF98-F6C3-46BA-90AE-6BF0F008A9DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

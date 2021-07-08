@@ -22,7 +22,7 @@ namespace WpeMergeCodeBehindBusinessLogic.BusinessLogic
         {
             var builder = new ConfigurationBuilder()
                                     .SetBasePath(Directory.GetCurrentDirectory())
-                                    .AddJsonFile("appSettings.json");
+                                    .AddJsonFile(Constants.APP_SETTINGS_FILE_NAME);
             configuration = builder.Build();
             accountsListApi = configuration.GetSection(Constants.APP_SETTINGS_ACCOUNT_LIST_API).Value;
             accountDetailsApi = configuration.GetSection(Constants.APP_SETTINGS_ACCOUNT_DETAILS_API).Value;
@@ -33,9 +33,10 @@ namespace WpeMergeCodeBehindBusinessLogic.BusinessLogic
             using (var reader = new StreamReader(path))
             {
                 string headers = reader.ReadLine();
+                if(reader.ReadLine().Length==0) return new List<CsvAccountModel>();
                 while (!reader.EndOfStream)
                 {
-                    string[] values = reader.ReadLine().Split(',');
+                    string[] values = reader.ReadLine().Split(',');                    
                     accountList.Add(new CsvAccountModel()
                     {
                         AccountId = long.Parse(values[0]),
@@ -105,9 +106,9 @@ namespace WpeMergeCodeBehindBusinessLogic.BusinessLogic
             }
         }
 
-        public void MergeCsvDataWithApi()
+        public string MergeCsvDataWithApi(string inputFilePath)
         {
-            List<CsvAccountModel> accountList = GetAccountListFromCsv("Nothing");
+            List<CsvAccountModel> accountList = GetAccountListFromCsv(inputFilePath);
             StringBuilder sb = new StringBuilder();
             sb.Append(SetHeader());
             if (accountList.Count > 0)
@@ -118,6 +119,7 @@ namespace WpeMergeCodeBehindBusinessLogic.BusinessLogic
                     sb.Append(BuildCSVStringFromCsvAndApi(apiDetails, csvDetails));
                 }
             }
+            return sb.ToString();
         }
 
         public StringBuilder SetHeader()
@@ -144,7 +146,5 @@ namespace WpeMergeCodeBehindBusinessLogic.BusinessLogic
             sb.Append(Environment.NewLine);
             return sb;
         }
-
-
     }
 }
